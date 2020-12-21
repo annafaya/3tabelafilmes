@@ -5,6 +5,11 @@
 * {
   box-sizing: border-box;
   font-family: 'Bitter', serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: #f8f9fa;
 }
 
 h1, h2, h3, h4, h4, h4 {
@@ -12,7 +17,7 @@ h1, h2, h3, h4, h4, h4 {
 }
 
 p {
-  color:#231f20;
+  color#4d4d4d;
 }
 
 
@@ -55,10 +60,23 @@ p {
 
 .nav-link, .dropdown-item {
   font-family: 'Rubik', sans-serif;
-  margin-right: 5px;
+  font-weight: 600;
+  margin-right: 7px;
+  color:#4d4d4d;
 }
 .logoNav {
     max-width: 10rem;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+  color: #cb4600;
+}
+
+.botaoNav {
+  background-color:#cb4600;
+    font-family: 'Rubik', sans-serif;
+  font-weight: 600;
+  color: #f8f9fa;
 }
 
 /*End Navbar*/
@@ -129,6 +147,8 @@ p {
   }
 }
 /*END HERO media querie*/
+
+/*CARDS MAIN PAGE*/
 
 .card {
   
@@ -223,8 +243,9 @@ p {
 .card-content p, .card-content a p {
   font-size: 1rem;
   font-weight: 500;
-  color: rgba(32, 41, 28, 0.8);
 }
+
+/*END CARDS MAIN PAGE*/
 
 .pq3tabela {
   max-width: 800px;
@@ -234,4 +255,7 @@ p {
 
 footer nav {
   background-color: #231f20;
+}
+footer li {
+  color:white;
 }
