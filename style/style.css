@@ -85,8 +85,7 @@ p {
 
 .nav-link,
 .dropdown-item {
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
+
   margin-right: 7px;
   color: #4d4d4d;
 }
@@ -101,8 +100,6 @@ p {
 
 .botaoNav {
   background-color: #cb4600;
-  font-family: "Rubik", sans-serif;
-  font-weight: 500;
   color: #f8f9fa;
 }
 
