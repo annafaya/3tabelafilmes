@@ -14,6 +14,7 @@
 
 .title {
   font-size: 4rem;
+  font-weight: 500;
   text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
   color: rgba(255, 255, 255);
 }
@@ -57,6 +58,7 @@
 @media only screen and (max-width: 600px) {
   .title {
     font-size: 2.5rem;
+  
   }
   .carousel-caption {
     margin-bottom: 40px;
