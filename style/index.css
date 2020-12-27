@@ -13,13 +13,13 @@
 /*HERO TYPO*/
 
 .title {
-  font-family: "JetBrains Mono", monospace;
+
   font-size: 4rem;
   text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
   color: rgba(255, 255, 255);
 }
 .subTitulo {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .css-typing h2 {
@@ -173,6 +173,6 @@
 /*END CARDS MAIN PAGE*/
 
 .pq3tabela {
-  max-width: 1000px;
+  max-width: 1100px;
   padding: 40px 100px 30px 104px;
 }
