@@ -50,16 +50,30 @@
   }
 }
 
-img {
-  border-radius: 150px;
+.imgSocios {
+  border-radius: 50%;
+  width: 15rem;
+  margin: auto;
+  padding-bottom: 1em;
 }
 
-.parallaxEdu {
-  background-image: url("../img/bg.png");
-  height: 40rem;
+.tituloSocios {
+  color: rgb(203, 70, 0);
+text-align: center;
+}
 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-size: auto;
+.card{
+  border: none;
+  padding: 1.2em;
+  margin: 1em;
+  border: solid 1.5px rgb(203, 70, 0);
+  max-width: 33rem;
+}
+
+.myBtn{
+  width: 10rem;
+  margin: auto;
+}
+.myBtn:hover {
+  background-color:  rgb(203, 70, 0);
 }

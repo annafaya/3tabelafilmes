@@ -5,7 +5,6 @@
 * {
   box-sizing: border-box;
   font-family: "Bitter", serif;
-  font-weight: 600;
 }
 
 body {
@@ -42,16 +41,16 @@ h4 {
 }
 
 p {
-  color: #4d4d4d;
-  font-weight: 600;
-  font-size: 1.2rem;
+  color:rgb(35, 31, 32);
+  font-weight: 400;
+  font-size: 1.1rem;
 }
 
 /*General media queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   p {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
 
   h3 {

@@ -10,3 +10,23 @@ $('.carousel').carousel({
       next();
     });
   });
+
+  function readMore(pessoa) {
+    let dots = document.querySelector(`.card[data-pessoa="${pessoa}"] .dots`);
+    let moreText = document.querySelector(
+      `.card[data-pessoa="${pessoa}"] .more`
+    );
+    let btnText = document.querySelector(
+      `.card[data-pessoa="${pessoa}"] .myBtn`
+    );
+
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.textContent = "Saiba mais...";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.textContent = "Leia menos";
+      moreText.style.display = "inline";
+    }
+  }
