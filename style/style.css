@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@500;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@500;700&display=swap");
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -20,15 +20,27 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+h3 {
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
 p {
-  color: rgb(35, 31, 32);
+  color: #231f20;
   font-weight: 400;
-  font-size: 1.25em;
+  font-size: 1.1em;
   letter-spacing: -0.003em;
   line-height: 32px;
+  -webkit-margin-before: 1em;
   margin-block-start: 1em;
+  -webkit-margin-after: 1em;
   margin-block-end: 1em;
+  -webkit-margin-start: 0px;
   margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
   margin-inline-end: 0px;
 }
 
@@ -50,9 +62,9 @@ p {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
   background: #fff;
 }
+
 .site-wrap:before {
   -webkit-transition: 0.3s all ease-in-out;
-  -o-transition: 0.3s all ease-in-out;
   transition: 0.3s all ease-in-out;
   background: rgba(0, 0, 0, 0.6);
   content: "";
@@ -65,6 +77,7 @@ p {
   opacity: 0;
   visibility: hidden;
 }
+
 .offcanvas-menu .site-wrap {
   position: absolute;
   height: 100%;
@@ -72,22 +85,70 @@ p {
   z-index: 2;
   overflow: hidden;
 }
+
 .offcanvas-menu .site-wrap:before {
   opacity: 1;
   visibility: visible;
 }
 
 /*END Site Wrap*/
-
 /*Navbar*/
-
-.nav-link,
-.dropdown-item {
-  margin-right: 7px;
-  color: #4d4d4d;
+.navbar {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
+
+.navbar .nav-link {
+  color: #fff;
+  font-weight: 500;
+  margin-right: 1.5em;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #cb4600;
+  text-decoration: none;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background: #fff;
+  -webkit-box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #000;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #cb4600;
+  text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+  color: #cb4600;
+}
+
 .logoNav {
-  max-width: 10rem;
+  width: 8rem;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+    background: #fff;
+  }
+  .navbar .navbar-brand,
+  .navbar .nav-link {
+    color: #555;
+    margin-bottom: px;
+  }
 }
 
 .nav-link:hover,
@@ -101,13 +162,14 @@ p {
 }
 
 /*End Navbar*/
-
 /*footer settings*/
 footer nav {
   background-color: #231f20;
 }
+
 footer li {
   color: white;
 }
 
 /*end footer settings*/
+/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,11 @@
 /*HERO Carousel*/
 
 .view {
-  max-height: 25rem;
+  max-height: 30rem;
 }
 
 .carousel-caption {
-  margin-bottom: 80px;
+  margin-bottom: 90px;
 }
 
 /*END HERO Carousel*/
@@ -15,16 +15,16 @@
 .title {
   font-size: 4rem;
   font-weight: 500;
-  text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
-  color: rgba(255, 255, 255);
+  text-shadow: 6px -1px 16px rgba(46, 46, 46, 0.68);
+  color: rgb(241, 241, 241);
 }
 .subTitulo {
   font-size: 1.8rem;
 }
 
 .css-typing h2 {
-  color: rgba(255, 255, 255);
-  border-right: solid rgba(255, 255, 255, 0.68);
+  color: rgb(241, 241, 241);
+  border-right: solid rgba(46, 46, 46, 0.68);
   white-space: nowrap;
   overflow: hidden;
 }
@@ -56,12 +56,16 @@
 /*HERO media queries*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .view {
+    max-height: 35rem;
+  }
+
   .title {
     font-size: 2.5rem;
-  
   }
+
   .carousel-caption {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .css-typing h2 {
     font-size: 1.5rem;
@@ -172,5 +176,3 @@
 }
 
 /*END CARDS MAIN PAGE*/
-
-

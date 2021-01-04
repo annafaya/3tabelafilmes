@@ -1,374 +1,315 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>3 Tabela Filmes</title>
-    <meta charset="utf-8" />
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    />
-    <script
-      src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"
-      type="text/javascript"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <title>3 Tabela Filmes</title>
+  <meta charset="utf-8" />
 
-    <!-- Icon library -->
-    <script
-      src="https://kit.fontawesome.com/d94fa60402.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/produtora.css" />
-  </head>
-  <body>
-    <div class="site-wrap">
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg">
-        <!-- Container wrapper -->
-        <div class="container-fluid">
-          <!-- Navbar brand -->
-          <a class="navbar-brand logoNav" href="#"
-            ><img
-              src="img/logo_3tabela_600px1.png"
-              alt="Logo da 3 Tabela"
-              class="img-fluid pt-2"
-          /></a>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 
-          <!-- Toggle button -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <i class="fas fa-bars"></i>
-          </button>
+  <!-- Icon library -->
+  <script src="https://kit.fontawesome.com/d94fa60402.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/produtora.css" />
+</head>
 
-          <!-- Collapsible wrapper -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- right links -->
-            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projetos</a>
-              </li>
-              <!-- Navbar dropdown -->
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Quem Somos
-                </a>
-                <!-- Dropdown menu -->
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">A Produtora</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Prêmios e Festivais</a>
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">News</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="btn botaoNav" href="/contato" role="button"
-                  >Contato</a
-                >
-              </li>
-            </ul>
-            <!-- right links -->
-          </div>
-          <!-- Collapsible wrapper -->
-        </div>
-        <!-- Container wrapper -->
-      </nav>
-      <!-- Navbar -->
+<body>
+  <div class="site-wrap">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top py-2">
+      <div class="container">
+        <a class="navbar-brand logoNav" href="#"
+          ><img
+            src="img/logo_3tabela_600px1.png"
+            alt="Logo da 3 Tabela"
+            class="img-fluid pt-2"
+        /></a>
+        <button
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler navbar-toggler-right"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
 
-      <div class="jumbotron jumbotron-fluid">
-        <div class="tituloDiv p-3 css-typing d-flex justify-content-center">
-          <h1 class="text-center tituloProdutora">A Produtora</h1>
-        </div>
-      </div>
-
-      <div class="container p-5 text-justify">
-        <div class="">
-          <p>
-            A 3 Tabela Filmes é uma produtora de cinema e TV do Rio de Janeiro
-            que nasceu no curso de cinema da UFF com uma carreira de sucesso com
-            curtas premiados. A partir de 2011, produziu longas de ficção e
-            documentários que rodaram pelos festivais mais importantes do mundo
-            - como Berlim, Rotterdam, Toulouse e Havana - além de séries de TV
-            com conteúdo infanto-juvenil derivados do Núcleo Caleidoscópio, um
-            espaço de criação que reúne autores como Flávia Lins e Silva,
-            Ludmila Naves, Arnaldo Branco, Gustavo Spolidoro, Renata Martins,
-            Ana Pacheco, Renata Córrea, além das “minas 3 tabela” Clara Chaves e
-            Izabella Faya.
-          </p>
-          <p>
-            O nome da produtora é inspirado na 3 tabela do cinema, uma caixa de
-            madeira tão simples, mas fundamental para as mais diferentes equipes
-            de filmagem. Diz muito sobre nossa essência enquanto sócios, de
-            nunca perder a essência do que une pessoas que amam o fazer cinema.
-            Em 2021 lançará dois filmes, Derrapada, de Pedro Amorim, e Pantanal,
-            a Boa inocência de nossas origens, de Eduardo Nunes e Izabella Faya,
-            e tem projetos em fase de pré-produção, desenvolvimento e captação
-            dos mais variados perfis, como animações, longas ficção,
-            documentários e séries de TV.
-          </p>
-        </div>
-      </div>
-
-      <div class="container-fluid px-5 edu">
-        <h2 class="pb-5 tituloSocios">Os Sócios</h2>
-        <div class="row d-flex align-items-center justify-content-center">
-          <div class="col-md-6 card" data-pessoa="edu">
-            <h3 class="tituloSocios">Eduardo Nunes</h3>
-            <img class="pt-3 imgSocios" src="img/edu.jpg" alt="Eduardo Nunes" />
-
-            <p class="textoSocios text-justify">
-              Eduardo Nunes é cria da UFF e lá iniciou sua carreira dirigindo
-              curtas que foram exibidos em importantes festivais de todo mundo e
-              receberam mais de 50 prêmios internacionais. Em 2011, dirigiu
-              'Sudoeste', que estreou em Rotterdam (IRFF).
-              <span class="dots">...</span>
-              <span class="more" style="display: none"
-                >Seguiram-se mais de 40 festivais e 30 prêmios internacionais,
-                incluindo dois FIPRESCI e o prêmio Andrei Tarkovski. Ganhou o
-                Prêmio de Contribuição à Linguagem no Festival de Havana. Foi
-                exibido também no MoMA, com excelentes críticas no 'The New York
-                Times' e 'Variety'); e apontado pela APCA como o melhor diretor
-                do ano. Foi um dos diretores do documentário “Cinco Vezes Chico
-                - O Velho e Sua Gente” (2015) e co-dirigiu com Izabella Faya
-                "Pantanal, A Boa Inocência de Nossas Origens" (2020).
-                "Unicórnio" (2018) é seu segundo longa de ficção e foi exibido
-                na Mostra Geração da 68o Berlinale, rodou países e ganhou no
-                Festival de Cinema Luso Brasileiro o Prêmio Especial do Júri. Em
-                2018 foi diretor da série “Frequência Positiva”, da autora
-                Flávia Lins e Silva, que será exibida pela TV Com, de Lauro de
-                Freitas (BA).
-              </span>
-            </p>
-            <button
-              onclick="readMore('edu')"
-              class="myBtn btn btn-outline-dark"
-            >
-              Saiba mais...
-            </button>
-          </div>
-          <br />
-          <div class="col-md-6 card" data-pessoa="iza">
-            <h3 class="w-100 tituloSocios">Izabella Faya</h3>
-            <img
-              class="pt-3 imgSocios"
-              src="img/1abbac64-69d2-402a-b609-5e325abb764e.jpg"
-              alt="Izabella Faya"
-            />
-
-            <p class="textoSocios text-justify">
-              Jornalista de formação, produziu séries, curtas e os longas.
-              Idealizou e produziu o longa “5X Chico – o Velho e sua Gente”
-              (2015), co-produção com a Globo Filmes, que rodou por festivais no
-              Brasil e no mundo. Co-dirigiu o documentário<span class="dots"
-                >...</span
-              ><span class="more" style="display: none">
-                “Pantanal, A Boa Inocência de Nossas Origens” e é produtora de
-                “Unicórnio”, de Eduardo Nunes, exibido na 68o Berlinale (2018).
-                Foi colaboradora de roteiro da série “Frequência Positiva”,
-                criada por Flávia Lins e Silva e dirigida por Eduardo Nunes.
-                Escreveu Gaby Estrella, criada por Carina Schulze, do Gloob,
-                indicada ao Emmy Kids e ao Rockie Awards, a série "Ernesto, o
-                exterminador de seres monstruosos e outras porcarias”, da TV
-                Brasil, onde também foi produtora executiva, e a primeira
-                temporada da “Juacas”, exibida no Disney XD e indicada ao Kids
-                Screen Awards 2018. Escreveu Acrópole (em captação), série de
-                Renata Côrrea. É roteirista e produtora do longa de ficção
-                “Derrapada”, adaptação do livro SLAM, de Nick Hornby, coprodução
-                Globo Filmes e Telecine. É coordenadora de conteúdo do Núcleo
-                Criativo Caleidoscópio, está na sala da série de animação Los
-                Peludos, de sua autoria, e do longa também de sua autoria “Um
-                Certo Alguém”, com Glória Pires como produtora associada e
-                atriz. .</span
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/index.html"
+                >Home</a
               >
-            </p>
-
-            <button
-              onclick="readMore('iza')"
-              class="myBtn btn btn-outline-dark"
-            >
-              Saiba mais...
-            </button>
-          </div>
-        </div>
-
-        <div class="row d-flex align-items-center justify-content-center">
-          <div class="col-md-6 card" data-pessoa="fernanda">
-            <h3 class="tituloSocios">Fernanda Reznik</h3>
-            <img
-              class="pt-3 imgSocios align-items-center"
-              src="img/edu.jpg"
-              alt="Fernanda Reznik"
-            />
-
-            <p class="textoSocios text-justify">
-              Fernanda Reznik produziu os documentários “Mulheres e os Direitos
-              Humanos - O X da Questão” (2009), "Diálogos sobre segurança
-              pública" (2009), e as ficções “Mulheres do Brasil” (2004), “Ouro
-              Negro” (2008) e “A ilha dos escravos” (2007),
-              <span class="dots">...</span>
-              <span class="more" style="display: none"
-                >uma coprodução com
-                Portugal. Fez a direção de produção do documentário “5 Vezes Chico – o Velho
-                e sua Gente”(2015) e da ficção “A Floresta que se Move” (2016).
-                Já na 3 Tabela Filmes, produziu “Unicórnio” (2018), de Eduardo
-                Nunes, “Antártica Por Um Ano” (2018), de Julia Martins, vencedor
-                do prêmio “Production Award” no International Filmmakers
-                Festival of New York (2018), o documentário “Pantanal, A Boa
-                Inocência de Nossas Origens”, de Izabella Faya e Eduardo Nunes.
-                Produziu para TV “Ernesto, o Exterminador de seres monstruosos e
-                outras porcarias”, uma coprodução com o Uruguai exibida na TV
-                Brasil em 2017, e “Frequência Positiva”, de autoria de Flavia
-                Lins e Silva e direção de Eduardo Nunes. É produtora executiva
-                do núcleo criativo Caleidoscópio, que reúne projetos para TV e
-                cinema voltados para o público infanto-juvenil. Produz o longa
-                de ficção “Derrapada”, adaptação do livro SLAM, de Nick Hornby,
-                coprodução Globo Filmes e Telecine, em fase de finalização.
-              </span>
-            </p>
-            <button
-              onclick="readMore('fernanda')"
-              class="myBtn btn btn-outline-dark"
-            >
-              Saiba mais...
-            </button>
-          </div>
-          <br />
-          <div class="col-md-6 card" data-pessoa="clara">
-            <h3 class="w-100 tituloSocios">Clara</h3>
-            <img
-              class="pt-3 imgSocios"
-              src="img/1abbac64-69d2-402a-b609-5e325abb764e.jpg"
-              alt="Izabella Faya"
-            />
-
-            <p class="textoSocios text-justify">
-              Jornalista de formação, produziu séries, curtas e os longas.
-              Idealizou e produziu o longa “5X Chico – o Velho e sua Gente”
-              (2015), co-produção com a Globo Filmes, que rodou por festivais no
-              Brasil e no mundo. Co-dirigiu o documentário<span class="dots"
-                >...</span
-              ><span class="more" style="display: none">
-                “Pantanal, A Boa Inocência de Nossas Origens” e é produtora de
-                “Unicórnio”, de Eduardo Nunes, exibido na 68o Berlinale (2018).
-                Foi colaboradora de roteiro da série “Frequência Positiva”,
-                criada por Flávia Lins e Silva e dirigida por Eduardo Nunes.
-                Escreveu Gaby Estrella, criada por Carina Schulze, do Gloob,
-                indicada ao Emmy Kids e ao Rockie Awards, a série "Ernesto, o
-                exterminador de seres monstruosos e outras porcarias”, da TV
-                Brasil, onde também foi produtora executiva, e a primeira
-                temporada da “Juacas”, exibida no Disney XD e indicada ao Kids
-                Screen Awards 2018. Escreveu Acrópole (em captação), série de
-                Renata Côrrea. É roteirista e produtora do longa de ficção
-                “Derrapada”, adaptação do livro SLAM, de Nick Hornby, coprodução
-                Globo Filmes e Telecine. É coordenadora de conteúdo do Núcleo
-                Criativo Caleidoscópio, está na sala da série de animação Los
-                Peludos, de sua autoria, e do longa também de sua autoria “Um
-                Certo Alguém”, com Glória Pires como produtora associada e
-                atriz. .</span
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/producoes.html">Projetos</a>
+            </li>
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-expanded="false"
               >
-            </p>
-
-
-            <button
-              onclick="readMore('clara')"
-              class="myBtn btn btn-outline-dark"
-            >
-              Saiba mais...
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <footer>
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light footerColor">
-          <!-- Container wrapper -->
-          <div class="container-fluid">
-            <!-- Navbar brand -->
-            <a class="navbar-brand logoNav" href="#"
-              ><img
-                src="img/logo_3tabela_600px1.png"
-                alt="Logo da 3 Tabela"
-                class="img-fluid pt-2"
-            /></a>
-
-            <!-- Toggle button -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fas fa-bars"></i>
-            </button>
-
-            <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <!-- right links -->
-              <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                <li class="nav-item white">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
+                Quem Somos
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item active" aria-current="page" href="/produtora.html"
+                    >A Produtora</a
                   >
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                <li>
+                  <a class="dropdown-item" href="#">Prêmios e Festivais</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">News</a>
                 </li>
               </ul>
-              <!-- right links -->
-            </div>
-            <!-- Collapsible wrapper -->
-          </div>
-          <!-- Container wrapper -->
-        </nav>
-        <!-- Navbar -->
-      </footer>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="btn botaoNav" href="/contato" role="button">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="tituloDiv p-3 css-typing d-flex justify-content-center">
+        <h1 class="text-center tituloProdutora">A Produtora</h1>
+      </div>
     </div>
-    <script src="js/script.js" type="text/javascript"></script>
-  </body>
+
+  <section class="produtora">
+    <div class="container py-5 text-justify ">
+      <div class="row d-flex justify-content-around aProdutora">
+        <p class="col-md-6 pr-md-4 aProdutora">
+          A 3 Tabela Filmes é uma produtora de cinema e TV do Rio de Janeiro
+          que nasceu no curso de cinema da UFF com uma carreira de sucesso com
+          curtas premiados. A partir de 2011, produziu longas de ficção e
+          documentários que rodaram pelos festivais mais importantes do mundo
+          - como Berlim, Rotterdam, Toulouse e Havana - além de séries de TV
+          com conteúdo infanto-juvenil derivados do Núcleo Caleidoscópio, um
+          espaço de criação que reúne autores como Flávia Lins e Silva,
+          Ludmila Naves, Arnaldo Branco, Gustavo Spolidoro, Renata Martins,
+          Ana Pacheco, Renata Côrrea, além das “minas 3 tabela” Clara Chaves e
+          Izabella Faya.
+        </p>
+        <p class="col-md-6 pl-md-4 aProdutora">
+          O nome da produtora é inspirado na 3 tabela do cinema, uma caixa de
+          madeira tão simples, mas fundamental para as mais diferentes equipes
+          de filmagem. Diz muito sobre nossa essência enquanto sócios, de
+          nunca perder a essência do que une pessoas que amam o fazer cinema.
+          Em 2021 lançará dois filmes, Derrapada, de Pedro Amorim, e Pantanal,
+          a Boa inocência de nossas origens, de Eduardo Nunes e Izabella Faya,
+          e tem projetos em fase de pré-produção, desenvolvimento e captação
+          dos mais variados perfis, como animações, longas ficção,
+          documentários e séries de TV.
+        </p>
+      </div>
+    </div>
+  </section>
+<section class="cartoes">
+    <div class="team-boxed">
+      <div class="container">
+        <div class="intro">
+          <h2 class="text-center">Os Sócios</h2>
+          <p class="text-center">
+            Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
+            Vestibulum nibh erat, pellentesque ut laoreet vitae.
+          </p>
+        </div>
+        <div class="row people">
+          <div class="col-lg-6 item" data-pessoa="edu">
+            <div class="box">
+              <img class="rounded-circle" src="img/edu.jpg" />
+              <h3 class="name">Eduardo Nunes</h3>
+
+              <p class="textoSocios card-text text-justify">
+                Eduardo Nunes é cria da UFF e lá iniciou sua carreira dirigindo
+                curtas que foram exibidos em importantes festivais de todo mundo
+                e receberam mais de 50 prêmios internacionais.
+                <span class="dots">...</span>
+                <span class="more" style="display: none">
+                  Em 2011, dirigiu 'Sudoeste', que estreou em Rotterdam (IRFF).
+                  Seguiram-se mais de 40 festivais e 30 prêmios internacionais,
+                  incluindo dois FIPRESCI e o prêmio Andrei Tarkovski. Ganhou o
+                  Prêmio de Contribuição à Linguagem no Festival de Havana. Foi
+                  exibido também no MoMA, com excelentes críticas no 'The New
+                  York Times' e 'Variety'); e apontado pela APCA como o melhor
+                  diretor do ano. Foi um dos diretores do documentário “Cinco
+                  Vezes Chico - O Velho e Sua Gente” (2015) e co-dirigiu com
+                  Izabella Faya "Pantanal, A Boa Inocência de Nossas Origens"
+                  (2020). "Unicórnio" (2018) é seu segundo longa de ficção e foi
+                  exibido na Mostra Geração da 68o Berlinale, rodou países e
+                  ganhou no Festival de Cinema Luso Brasileiro o Prêmio Especial
+                  do Júri. Em 2018 foi diretor da série “Frequência Positiva”,
+                  da autora Flávia Lins e Silva, que será exibida pela TV Com,
+                  de Lauro de Freitas (BA).
+                </span>
+              </p>
+              <button type="button" onclick="readMore('edu')" class="myBtn btn btn-outline-secondary">
+                Saiba mais...
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 item hover-shadow" data-pessoa="iza">
+            <div class="box">
+              <img class="rounded-circle" src="img/1abbac64-69d2-402a-b609-5e325abb764e.jpg" />
+              <h3 class="name">Izabella Faya</h3>
+
+              <p class="textoSocios card-text text-justify">
+                Jornalista de formação, produziu séries, curtas e os longas.
+                Idealizou e produziu o longa “5X Chico – o Velho e sua Gente”
+                (2015), co-produção com a Globo Filmes, que <span class="dots">...</span><span class="more"
+                  style="display: none">
+                  rodou por
+                  festivais no Brasil e no mundo. Co-dirigiu o documentário “Pantanal, A
+                  Boa Inocência de Nossas Origens” e é produtora de “Unicórnio”,
+                  de Eduardo Nunes, exibido na 68o Berlinale (2018). Foi
+                  colaboradora de roteiro da série “Frequência Positiva”, criada
+                  por Flávia Lins e Silva e dirigida por Eduardo Nunes. Escreveu
+                  Gaby Estrella, criada por Carina Schulze, do Gloob, indicada
+                  ao Emmy Kids e ao Rockie Awards, a série "Ernesto, o
+                  exterminador de seres monstruosos e outras porcarias”, da TV
+                  Brasil, onde também foi produtora executiva, e a primeira
+                  temporada da “Juacas”, exibida no Disney XD e indicada ao Kids
+                  Screen Awards 2018. Escreveu Acrópole (em captação), série de
+                  Renata Côrrea. É roteirista e produtora do longa de ficção
+                  “Derrapada”, adaptação do livro SLAM, de Nick Hornby,
+                  coprodução Globo Filmes e Telecine. É coordenadora de conteúdo
+                  do Núcleo Criativo Caleidoscópio, está na sala da série de
+                  animação Los Peludos, de sua autoria, e do longa também de sua
+                  autoria “Um Certo Alguém”, com Glória Pires como produtora
+                  associada e atriz.
+                </span>
+              </p>
+
+              <button type="button" onclick="readMore('iza')" class="myBtn btn btn-outline-secondary">
+                Saiba mais...
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 item" data-pessoa="nanda">
+            <div class="box">
+              <img class="rounded-circle" src="img/nanda.jpg" />
+              <h3 class="name">Fernanda Reznik</h3>
+
+              <p class="textoSocios text-justify">
+                Formada em comunicação, com diversos trabalhos nas áreas de
+                  diversidade e gênero, Fernanda Reznik produziu curtas, longas
+                  e séries para TV. Dentre eles
+                <span class="dots">...</span>
+                <span class="more" style="display: none"> as ficções “Mulheres do Brasil”
+                  (2004), “Ouro Negro” (2008) e “A ilha dos escravos” (2007),
+                  uma coprodução com Portugal, e “A Floresta que se Move”
+                  (2016), uma coprodução com o Uruguai. Já na 3 Tabela Filmes,
+                  fez a direção de produção do documentário “5 Vezes Chico – o
+                  Velho e sua Gente”(2015), produziu “Unicórnio” (2018), de
+                  Eduardo Nunes, “Antártica Por Um Ano” (2018), de Julia
+                  Martins, vencedor do prêmio “Production Award” no
+                  International Filmmakers Festival of New York (2018), o
+                  documentário “Pantanal, A Boa Inocência de Nossas Origens”, de
+                  Izabella Faya e Eduardo Nunes. Produziu para TV “Ernesto, o
+                  Exterminador de seres monstruosos e outras porcarias”, uma
+                  coprodução com o Uruguai exibida na TV Brasil em 2017, e
+                  “Frequência Positiva”, de autoria de Flavia Lins e Silva e
+                  direção de Eduardo Nunes. É produtora executiva do núcleo
+                  criativo Caleidoscópio, que reúne projetos para TV e cinema
+                  voltados para o público infanto-juvenil. Produz o longa de
+                  ficção “Derrapada”, adaptação do livro SLAM, de Nick Hornby,
+                  coprodução Globo Filmes e Telecine, em fase de finalização.
+                </span>
+              </p>
+              <button type="button" onclick="readMore('nanda')" class="myBtn btn btn-outline-secondary">
+                Saiba mais...
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 item" data-pessoa="clara">
+            <div class="box">
+              <img class="rounded-circle" src="img/nanda.jpg" />
+              <h3 class="name">Clara Chaves</h3>
+
+              <p class="textoSocios text-justify">
+                “Pantanal, A Boa Inocência de Nossas Origens” e é produtora de
+                “Unicórnio”, de Eduardo Nunes, exibido na 68o Berlinale
+                (2018). Foi colaboradora de roteiro 
+                <span class="dots">...</span>
+                <span class="more" style="display: none">
+                 da série “Frequência
+                  Positiva”, criada por Flávia Lins e Silva e dirigida por
+                  Eduardo Nunes. Escreveu Gaby Estrella, criada por Carina
+                  Schulze, do Gloob, indicada ao Emmy Kids e ao Rockie Awards, a
+                  série "Ernesto, o exterminador de seres monstruosos e outras
+                  porcarias”, da TV Brasil, onde também foi produtora executiva,
+                  e a primeira temporada da “Juacas”, exibida no Disney XD e
+                  indicada ao Kids Screen Awards 2018. Escreveu Acrópole (em
+                  captação), série de Renata Côrrea. É roteirista e produtora do
+                  longa de ficção “Derrapada”, adaptação do livro SLAM, de Nick
+                  Hornby, coprodução Globo Filmes e Telecine. É coordenadora de
+                  conteúdo do Núcleo Criativo Caleidoscópio, está na sala da
+                  série de animação Los Peludos, de sua autoria, e do longa
+                  também de sua autoria “Um Certo Alguém”, com Glória Pires como
+                  produtora associada e atriz. .</span>
+              </p>
+
+              <button type="button" onclick="readMore('clara')" class="myBtn btn btn-outline-secondary">
+                Saiba mais...
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<footer>
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- right links -->
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item white">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+      </ul>
+      <!-- right links -->
+    </div>
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+  </footer>
+  </div>
+  <script src="js/script.js" type="text/javascript"></script>
+</body>
+
 </html>

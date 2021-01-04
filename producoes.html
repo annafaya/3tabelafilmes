@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>3 Tabela Filmes</title>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <!-- Icon library -->
+  <script src="https://kit.fontawesome.com/d94fa60402.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="style/producoes.css" />
+</head>
+
+<div class="site-wrap">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top py-2">
+    <div class="container">
+      <a class="navbar-brand logoNav" href="#"><img src="img/logo_3tabela_600px1.png" alt="Logo da 3 Tabela"
+          class="img-fluid pt-2" /></a>
+      <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+        class="navbar-toggler navbar-toggler-right">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <div id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/producoes.html">Projetos</a>
+          </li>
+          <!-- Navbar dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-expanded="false">
+              Quem Somos
+            </a>
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li>
+                <a class="dropdown-item" href="/produtora.html">A Produtora</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">Prêmios e Festivais</a>
+              </li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">News</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item pt-1">
+            <a class="btn botaoNav" href="/contato" role="button">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <!-- Control buttons -->
+
+  <body>
+    <div class="hero">
+      <h1 class="title text-center">Producoes</h1>
+    </div>
+
+    <!--filtros-->
+    <!-- Control buttons -->
+    <div class="container-fluid text-right py-5 botoes" id="myBtnContainer">
+      <button class="mybtn active" onclick="filterSelection('all')">
+        Todas
+      </button>
+      <button class="mybtn" onclick="filterSelection('longas')">Longas</button>
+      <button class="mybtn" onclick="filterSelection('series')">Séries de TV</button>
+      <button class="mybtn" onclick="filterSelection('breve')">Em breve...</button>
+    </div>
+
+    <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+
+        <!--longas first-->
+
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/190414-derrapada-327.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Derrapada</h2>
+                <p><strong>2021 - Direção: Pedro Amorim</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/pantanal/cavalo.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>documentário</strong></p>
+                <h2>Pantanal, a boa inocência de nossas origens </h2>
+                <p><strong>2021 - Direção: Izabella Faya e Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/antartica/AntarticaPorUmAno_CINEMA.png)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>documentário</strong></p>
+                <h2>Antártica Por Um Ano</h2>
+                <p><strong>2020 - Direção: Julia Martins</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/unicornio/Unicornio_cartaz_final-baixa.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Unicórnio</h2>
+                <p><strong>2018 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/5xchico-cartaz.png)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>documentário</strong></p>
+                <h2>Cinco Vezes Chico</h2>
+                <p><strong>2015 - Direção: Gustavo Spolidoro, Ana Rieper, Camilo Cavalcante, Eduardo Goldenstein e
+                    Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Sudoeste</h2>
+                <p><strong>2012 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>documentário</strong></p>
+                <h2>Macumbaria</h2>
+                <p><strong>2021 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv longas">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Carnaval e Política</h2>
+                <p><strong>2021 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--SÉRIES-->
+
+        <div class="filterDiv series">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/ernesto_barto.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Ernesto, O Exterminador de Seres Monstruosos e outras porcarias</h2>
+                <p><strong>2017 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv series">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/IMG_0083.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Frequência Positiva</h2>
+                <p><strong>2021 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="filterDiv series">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Filosofia com Arte</h2>
+                <p><strong>2021 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv series">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Outras Infâncias</h2>
+                <p><strong>2021 - Direção: Anna Azevedo</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--EM BREVE-->
+
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/amazoniazul.PNG)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>documentário</strong></p>
+                <h2>Amazônia Azul</h2>
+                <p><strong>em breve - Direção: Julia Martins</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>comédia romântica</strong></p>
+                <h2>Um Certo Alguém</h2>
+                <p><strong>em breve - Direção: Anna Azevedo</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Cinco da Tarde</h2>
+                <p><strong>em breve - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>O Assistente Mágico do Mágico</h2>
+                <p><strong>em breve - Direção: Gustavo Spolidoro</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Os Crias</h2>
+                <p><strong>em breve - Direção: </strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
+
+  <footer>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light footerColor">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Navbar brand -->
+        <a class="navbar-brand logoNav" href="#"><img src="img/logo_3tabela_600px1.png" alt="Logo da 3 Tabela"
+            class="img-fluid pt-2" /></a>
+
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- right links -->
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item white">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+          <!-- right links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+  </footer>
+</div>
+</div>
+
+</html>
