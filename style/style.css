@@ -161,6 +161,11 @@ p {
   color: #f8f9fa;
 }
 
+.botaoNav:hover {
+  background-color: #a8430c;
+  color: #f8f9fa;
+}
+
 /*End Navbar*/
 /*footer settings*/
 footer nav {
