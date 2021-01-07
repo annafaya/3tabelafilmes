@@ -1,6 +1,6 @@
 .jumbotron {
   background-image: url("../img/364c21eb-3212-4930-ba04-7d94846af184.jpg");
-  height: 30rem;
+  height: 25rem;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -30,7 +30,7 @@
   }
 }
 .tituloDiv {
-  margin-top: 100px;
+  margin-top: 80px;
   width: none;
   background-color: rgba(226, 227, 231, 0.68);
 }
@@ -47,7 +47,7 @@
     font-size: 2.5rem;
   }
   .tituloDiv {
-    margin-top: 200px;
+    margin-top: 160px;
     width: none;
     background-color: rgba(226, 227, 231, 0.68);
   }
