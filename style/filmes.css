@@ -1,7 +1,5 @@
-.antartica {
-  background-image: url("../img/antartica/antarctida-um.jpg");
+.jumbotron {
   height: 25rem;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -9,16 +7,59 @@
   background-size: cover;
 }
 
-.chico{
-    background-image: url("../img/5xchicobg.png");
-    height: 25rem;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.antartica {
+  background-image: url("../img/antartica/antarctida-um.jpg");
+}
+
+.chico {
+  background-image: url("../img/5xchicobg.png");
+}
+
+/*Pantanal design*/
+.pantanal {
+  background-image: url("../img/pantanal/sol.jpg");
+}
+
+.tituloPantanalDiv {
+    margin-top: 50px;
+    width: none;
+    background-color: rgba(226, 227, 231, 0.68);
   }
+
+.subTituloDiv {
+    width: none;
+    background-color: rgba(226, 227, 231, 0.68);
+  }
+  
+  .subTitulo {
+    text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
+    color: rgb(229, 108, 11);
+  }
+
+  @media only screen and (max-width: 600px) {
+    .tituloPantanal {
+      font-size: 2.5rem;
+    }
+    .tituloPantanalDiv {
+      margin-top: 90px;
+      width: none;
+      background-color: rgba(226, 227, 231, 0.68);
+    }
+  }
+
+/* end Pantanal design*/
+
+.derrapada {
+    background-image: url("../img/190414-derrapada-327.jpg");
+}
+
+.sudoeste {
+    background-image: url("../img/sudoeste-02.jpg");
+}
+
+.unicornio{
+    background-image:  url("../img/unicornio/unicornio_f05cor_2017131917.jpg");
+}
 
 .tituloDiv {
   margin-top: 80px;
@@ -26,7 +67,7 @@
   background-color: rgba(226, 227, 231, 0.68);
 }
 
-.tituloProdutora {
+.tituloProdutora, .tituloPantanal {
   font-weight: 500;
   font-size: 4rem;
   text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
@@ -73,15 +114,15 @@
 }
 
 .embed-responsive-item {
-    width: 50rem;
-    padding: 4rem 8rem;
+  width: 50rem;
+  padding: 4rem 8rem;
 }
 
 @media only screen and (max-width: 769px) {
-    .embed-responsive-item {
-        padding: 1rem 4rem;
-    }
-    .mediaQ {
-        padding: 1.1rem 1.5rem;
-    }
+  .embed-responsive-item {
+    padding: 1rem 4rem;
   }
+  .mediaQ {
+    padding: 1.1rem 1.5rem;
+  }
+}
