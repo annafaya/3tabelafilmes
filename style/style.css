@@ -167,14 +167,22 @@ p {
 }
 
 /*End Navbar*/
-/*footer settings*/
-footer nav {
-  background-color: #231f20;
-}
 
-footer li {
-  color: white;
+/*footer desgin*/
+.divDaLogo {
+  width: 3rem;
 }
-
-/*end footer settings*/
+.logoVertical {
+  width: 2.7rem;
+  padding: 0;
+}
+.footerParagrafo{
+  color: #f8f9fa;
+  font-size: 1rem;
+}
+.fab {
+  color:#cb4600;
+  padding: 0.5rem;
+}
+/*end footer desgin*/
 /*# sourceMappingURL=style.css.map */

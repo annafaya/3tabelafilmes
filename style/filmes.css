@@ -1,0 +1,87 @@
+.antartica {
+  background-image: url("../img/antartica/antarctida-um.jpg");
+  height: 25rem;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chico{
+    background-image: url("../img/5xchicobg.png");
+    height: 25rem;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.tituloDiv {
+  margin-top: 80px;
+  width: none;
+  background-color: rgba(226, 227, 231, 0.68);
+}
+
+.tituloProdutora {
+  font-weight: 500;
+  font-size: 4rem;
+  text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
+  color: rgb(229, 108, 11);
+}
+
+@media only screen and (max-width: 600px) {
+  .tituloProdutora {
+    font-size: 2.5rem;
+  }
+  .tituloDiv {
+    margin-top: 160px;
+    width: none;
+    background-color: rgba(226, 227, 231, 0.68);
+  }
+}
+.css-typing h1 {
+  color: rgb(229, 108, 11);
+  border-right: solid rgb(229, 108, 11);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing h1:nth-child(1) {
+  width: 9.4em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: solid rgba(255, 255, 255);
+    text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
+  }
+  100% {
+    border: none;
+    text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
+  }
+}
+
+.embed-responsive-item {
+    width: 50rem;
+    padding: 4rem 8rem;
+}
+
+@media only screen and (max-width: 769px) {
+    .embed-responsive-item {
+        padding: 1rem 4rem;
+    }
+    .mediaQ {
+        padding: 1.1rem 1.5rem;
+    }
+  }

@@ -1,6 +1,6 @@
 
 .title {
-  padding-top: 7rem;
+  margin-top: 7rem;
   font-size: 4rem;
   font-weight: 500;
   text-shadow: 6px -1px 16px rgb(211, 211, 211);
@@ -8,6 +8,36 @@
   text-align: center;
   white-space: nowrap;
 }
+
+.css-typing h1 {
+  color: rgb(229, 108, 11);
+  border-right: solid rgb(229, 108, 11);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing h1:nth-child(1) {
+  width: 9.4em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: solid rgba(255, 255, 255);
+    text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
+  }
+  100% {
+    border: none;
+    text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
+  }
+}
+
 
 .container-fluid {
   overflow: hidden;
