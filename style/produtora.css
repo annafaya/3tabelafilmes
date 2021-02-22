@@ -10,7 +10,7 @@
 }
 
 .site-wrap {
-  background-color: rgb(155, 201, 198);
+  background-color: #231f20f8;
 }
 
 .produtora {
@@ -81,11 +81,12 @@
   }
 }
 .team-boxed {
-  color: #313437;
+  color: white;
 }
 
 .team-boxed p {
   font-size: 1.03rem;
+  color: white;
 }
 
 .team-boxed h2 {
@@ -123,8 +124,7 @@
   text-align: center;
   padding: 30px;
   margin-bottom: 30px;
-  border-radius: 5px;
-  background-color: rgb(97%, 98%, 98%);
+
 }
 
 .team-boxed .item .name {
@@ -146,7 +146,7 @@
   padding: 0.5rem;
   font-size: 0.9rem;
   color: rgb(35, 31, 32);
-  background-color: none;
+  background-color: white;
 }
 
 .myBtn:hover {

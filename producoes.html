@@ -4,6 +4,7 @@
 <head>
   <title>Nossas produções</title>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
@@ -49,8 +50,8 @@
           </li>
           <!-- Navbar dropdown -->
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-expanded="false">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-expanded="false">
               Quem Somos
             </a>
             <!-- Dropdown menu -->
@@ -84,7 +85,7 @@
       <div class="tituloDiv p-3 css-typing d-flex justify-content-center">
         <h1 class="title text-center">Produções</h1>
       </div>
-      </div>
+    </div>
 
     <!--filtros-->
     <!-- Control buttons -->
@@ -95,6 +96,7 @@
       <button class="mybtn" onclick="filterSelection('longas')">Longas</button>
       <button class="mybtn" onclick="filterSelection('series')">Séries de TV</button>
       <button class="mybtn" onclick="filterSelection('breve')">Em breve...</button>
+      <button class="mybtn" onclick="filterSelection('criativo')">Núcleo Criativo</button>
     </div>
 
     <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
@@ -104,48 +106,6 @@
 
         <!--longas first-->
 
-        <!--DERRAPADA-->
-        <div class="filterDiv longas">
-          <div class="col card">
-            <div class="card-img" style="background-image: url(img/190414-derrapada-327.jpg)">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <a class="hover" href="derrapada.html">Leia mais...</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-content">
-              <a href="derrapada.html">
-                <p><strong>ficção</strong></p>
-                <h2>Derrapada</h2>
-                <p><strong>2021 - Direção: Pedro Amorim</strong>
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!--PANTANAL-->
-        <div class="filterDiv longas">
-          <div class="col card">
-            <div class="card-img" style="background-image: url(img/pantanal/cavalo.jpg)">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <a class="hover" href="/pantanal.html">Leia mais...</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-content">
-              <a href="/pantanal.html">
-                <p><strong>documentário</strong></p>
-                <h2>Pantanal, a boa inocência de nossas origens </h2>
-                <p><strong>2021 - Direção: Izabella Faya e Eduardo Nunes</strong>
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
         <!--ANTARTICA-->
         <div class="filterDiv longas">
           <div class="col card">
@@ -231,48 +191,6 @@
             </div>
           </div>
         </div>
-        <!--MACUMBARIA-->
-        <div class="filterDiv longas">
-          <div class="col card">
-            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <a class="hover" href="#!">Leia mais...</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-content">
-              <a href="#!">
-                <p><strong>documentário</strong></p>
-                <h2>Macumbaria</h2>
-                <p><strong>2021 - Direção: Eduardo Nunes</strong>
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!--CARNAVAL E POLÍTICA-->
-        <div class="filterDiv longas">
-          <div class="col card">
-            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <a class="hover" href="#!">Leia mais...</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-content">
-              <a href="#!">
-                <p><strong>ficção</strong></p>
-                <h2>Carnaval e Política</h2>
-                <p><strong>2021 - Direção: Eduardo Nunes</strong>
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
         <!--END FILMES-->
 
         <!--SÉRIES-->
@@ -340,8 +258,78 @@
             </div>
           </div>
         </div>
+        <!--END SERIES-->
+
+        <!--EM BREVE-->
+
+        <!--DERRAPADA-->
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/190414-derrapada-327.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="derrapada.html">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="derrapada.html">
+                <p><strong>ficção</strong></p>
+                <h2>Derrapada</h2>
+                <p><strong>2021 - Direção: Pedro Amorim</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--PANTANAL-->
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/pantanal/cavalo.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="/pantanal.html">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="/pantanal.html">
+                <p><strong>documentário</strong></p>
+                <h2>Pantanal, a boa inocência de nossas origens </h2>
+                <p><strong>2021 - Direção: Izabella Faya e Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--CARNAVAL E POLÍTICA-->
+        <div class="filterDiv breve">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>ficção</strong></p>
+                <h2>Carnaval e Política</h2>
+                <p><strong>2021 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
         <!--OUTRAS INFANCIAS-->
-        <div class="filterDiv series">
+        <div class="filterDiv breve">
           <div class="col card">
             <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
               <div class="overlay">
@@ -361,52 +349,7 @@
             </div>
           </div>
         </div>
-        <!--END SERIES-->
 
-        <!--EM BREVE-->
-
-        <!--AMAZONIA AZUL-->
-        <div class="filterDiv breve">
-          <div class="col card">
-            <div class="card-img" style="background-image: url(img/amazoniazul.PNG)">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <a class="hover" href="#!">Leia mais...</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-content">
-              <a href="#!">
-                <p><strong>documentário</strong></p>
-                <h2>Amazônia Azul</h2>
-                <p><strong>em breve - Direção: Julia Martins</strong>
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
-        <!--UM CERTO ALGUEM-->
-        <div class="filterDiv breve">
-          <div class="col card">
-            <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
-              <div class="overlay">
-                <div class="overlay-content">
-                  <a class="hover" href="#!">Leia mais...</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-content">
-              <a href="#!">
-                <p><strong>comédia romântica</strong></p>
-                <h2>Um Certo Alguém</h2>
-                <p><strong>em breve - Direção: Anna Azevedo</strong>
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
         <!--CINCO DA TARDE-->
         <div class="filterDiv breve">
           <div class="col card">
@@ -428,6 +371,7 @@
             </div>
           </div>
         </div>
+
         <!--ASSISTENTE MÁGICO-->
         <div class="filterDiv breve">
           <div class="col card">
@@ -471,6 +415,74 @@
           </div>
         </div>
         <!--END BREVE-->
+
+        <!--NÚCLEO CRIATIVO-->
+        
+        <!--AMAZONIA AZUL-->
+        <div class="filterDiv criativo">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/amazoniazul.PNG)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>documentário</strong></p>
+                <h2>Amazônia Azul</h2>
+                <p><strong>em breve - Direção: Julia Martins</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--UM CERTO ALGUEM-->
+        <div class="filterDiv criativo">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/outrasinfancias.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>comédia romântica</strong></p>
+                <h2>Quando Um Certo Alguém</h2>
+                <p><strong>em breve - Direção: Anna Azevedo</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!--MACUMBARIA-->
+        <div class="filterDiv criativo">
+          <div class="col card">
+            <div class="card-img" style="background-image: url(img/sudoeste-poster.jpg)">
+              <div class="overlay">
+                <div class="overlay-content">
+                  <a class="hover" href="#!">Leia mais...</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-content">
+              <a href="#!">
+                <p><strong>documentário</strong></p>
+                <h2>Macumbaria</h2>
+                <p><strong>2021 - Direção: Eduardo Nunes</strong>
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--END NÚCLEO CRIATIVO-->
       </div>
       <!--END FILTER CARDS-->
     </div>
