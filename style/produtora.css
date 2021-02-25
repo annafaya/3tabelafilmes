@@ -9,6 +9,12 @@
   background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .jumbotron {
+    background-attachment: scroll;
+  }
+}
+
 
 .site-wrap {
   background-color: #231f20f8;
@@ -147,9 +153,9 @@
   padding: 0.5rem;
   font-size: 0.9rem;
   color: rgb(255, 255, 255);
-  background-color: #cb4600;;
+  background-color: #cb4700;
 }
 
 .myBtn:hover {
-  background-color: #cb470086;
+  background-color: #cb470062;
 }
