@@ -9,6 +9,13 @@
   background-size: cover;
 }
 
+@media only screen and (max-device-width: 1366px) {
+  .jumbotron {
+    background-attachment: scroll;
+  }
+}
+
+
 .site-wrap {
   background-color: #231f20f8;
 }

@@ -1,23 +1,26 @@
-.jumbotron {
-  height: 25rem;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-
-@media only screen and (max-device-width: 1366px) {
-  .jumbotron {
-    background-attachment: scroll;
-  }
-}
 
 
 .antartica {
-  background-image: url("../img/antartica/antarctida-um.jpg");
-}
+     height: 25rem;
+     background-image: url("../img/antartica/AntarticaPorUmAno_CINEMA.png");
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media only screen and (max-device-width: 1366px) {
+    .antartica {
+      background-attachment: scroll;
+    }
+  }
+  
+  @media only screen and (max-width: 850px) {
+    .antartica {
+      height: 25rem;
+    }
+  }
 
 .chico {
   background-image: url("../img/5xchicobg.png");
@@ -57,9 +60,6 @@
 
 /* end Pantanal design*/
 
-.derrapada {
-    background-image: url("../img/190414-derrapada-327.jpg");
-}
 
 .sudoeste {
     background-image: url("../img/sudoeste-02.jpg");

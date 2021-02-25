@@ -98,7 +98,6 @@ p {
   transition: all 0.4s;
   max-width: inherit;
   margin: 0 auto;
-  overflow: hidden;
 
 }
 
@@ -151,7 +150,7 @@ p {
   .navbar .navbar-brand,
   .navbar .nav-link {
     color: #555;
-    margin-bottom: px;
+
   }
 }
 
