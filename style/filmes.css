@@ -1,6 +1,7 @@
 .antartica {
-     height: 25rem;
-     background-image: url("../img/antartica/AntarticaPorUmAno_CINEMA.png");
+  padding-top: 3rem;
+    height: 25rem;
+     background-image: url("../img/antartica/antarctida-um.jpg");
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -19,6 +20,10 @@
       height: 25rem;
       margin-top: 65px;
     }
+  }
+
+  .tituloAntartica {
+    font-size: 3em;
   }
 
 .chico {
@@ -83,7 +88,7 @@
 
 @media only screen and (max-width: 600px) {
   .tituloProdutora {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .tituloDiv {
     margin-top: 160px;
