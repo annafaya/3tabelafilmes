@@ -137,9 +137,6 @@
 }
 
 @media only screen and (max-width: 769px) {
-  .embed-responsive-item {
-    padding: 1rem;
-  }
   .mediaQ {
     padding: 1.1rem 1.5rem;
   }
