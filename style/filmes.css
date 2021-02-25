@@ -1,5 +1,5 @@
 .antartica {
-  padding-top: 3rem;
+
     height: 25rem;
      background-image: url("../img/antartica/antarctida-um.jpg");
     /* Create the parallax scrolling effect */
@@ -18,12 +18,7 @@
   @media only screen and (max-width: 850px) {
     .antartica {
       height: 25rem;
-      margin-top: 65px;
-    }
-  }
-
-  .tituloAntartica {
-    font-size: 3em;
+     }
   }
 
 .chico {
