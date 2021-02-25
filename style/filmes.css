@@ -1,7 +1,5 @@
-.antartica {
-
+.jumbotron {
     height: 25rem;
-     background-image: url("../img/antartica/antarctida-um.jpg");
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -10,20 +8,33 @@
   }
   
   @media only screen and (max-device-width: 1366px) {
-    .antartica {
+    .jumbotron {
       background-attachment: scroll;
     }
   }
   
   @media only screen and (max-width: 850px) {
-    .antartica {
+    .jumbotron {
       height: 25rem;
+     }
+  }
+
+  .antartica {
+    background-image: url("../img/antartica/antarctida-um.jpg");
+  }
+
+
+  @media only screen and (max-width: 850px) {
+    .cartazChico {
+      width: 25rem;
      }
   }
 
 .chico {
   background-image: url("../img/5xchicobg.png");
 }
+
+
 
 /*Pantanal design*/
 .pantanal {
@@ -121,8 +132,8 @@
 }
 
 .embed-responsive-item {
-  width: 50rem;
-  padding: 4rem 8rem;
+  width: 20rem;
+
 }
 
 @media only screen and (max-width: 769px) {
