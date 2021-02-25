@@ -140,4 +140,7 @@
   .mediaQ {
     padding: 1.1rem 1.5rem;
   }
+  .embed-responsive-item{
+    width: 20rem;
+  }
 }
