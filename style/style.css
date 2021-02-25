@@ -96,6 +96,10 @@ p {
 .navbar {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  max-width: inherit;
+  margin: 0 auto;
+  overflow: hidden;
+
 }
 
 .navbar .nav-link {

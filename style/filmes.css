@@ -7,6 +7,14 @@
   background-size: cover;
 }
 
+
+@media only screen and (max-device-width: 1366px) {
+  .jumbotron {
+    background-attachment: scroll;
+  }
+}
+
+
 .antartica {
   background-image: url("../img/antartica/antarctida-um.jpg");
 }
