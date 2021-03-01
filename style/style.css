@@ -103,6 +103,7 @@ p {
 
 .navbar .nav-link {
   color: #fff;
+  text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
   font-weight: 500;
   margin-right: 1.5em;
 }
@@ -126,6 +127,7 @@ p {
 
 .navbar.active .nav-link {
   color: #000;
+  text-shadow: 6px -1px 16px rgba(255, 255, 255, 0.68);
 }
 
 .navbar.active .nav-link:hover,
