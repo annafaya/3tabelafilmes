@@ -87,6 +87,26 @@
   background-image:  url("../img/mail.jpg");
 }
 
+.infancias {
+  background-image:  url("../img/outrasinfancias.jpg");
+}
+
+.certoAlguem {
+  background-image:  url("../img/quandoumcertoalguem2.jpg");
+}
+
+.macumbaria {
+  background-image:  url("../img/macumbaria.jpg");
+}
+
+.amazonia {
+  background-image:  url("../img/amazoniazul.PNG");
+}
+
+.ernesto {
+  background-image:  url("../img/Série\ Ernesto\ 03.jpg");
+}
+
 .tituloDiv {
   margin-top: 80px;
   width: none;
@@ -119,6 +139,21 @@
 
 .css-typing h1:nth-child(1) {
   width: 9.4em;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing h2 {
+  color: rgb(229, 108, 11);
+  border-right: solid rgb(229, 108, 11);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.css-typing h2:nth-child(1) {
+  width: 14.4em;
   -webkit-animation: type 2s steps(40, end);
   animation: type 2s steps(40, end);
   -webkit-animation-fill-mode: forwards;
