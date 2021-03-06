@@ -31,7 +31,7 @@
   }
 
 .chico {
-  background-image: url("../img/5xchicobg.png");
+  background-image: url("../img/chicobg.jpg");
 }
 
 
@@ -76,19 +76,19 @@
 }
 
 .unicornio{
-    background-image:  url("../img/unicornio/unicornio_f05cor_2017131917.jpg");
+    background-image:  url("../img/unicornio/unicorniobg.JPG");
 }
 
 .carnaval{
-  background-image:  url("../img/Captura\ de\ Tela\ 2020-05-20\ às\ 14.46.27.png");
+  background-image:  url("../img/carnavalepoliticabg.jpg");
 }
 
 .derrapada {
-  background-image:  url("../img/mail.jpg");
+  background-image:  url("../img/derrapadabg.jpg");
 }
 
 .infancias {
-  background-image:  url("../img/outrasinfancias.jpg");
+  background-image:  url("../img/outrasinfanciasbg.JPG");
 }
 
 .certoAlguem {
@@ -104,8 +104,22 @@
 }
 
 .ernesto {
-  background-image:  url("../img/Série\ Ernesto\ 03.jpg");
+  background-image:  url("../img/ernerstibg.JPG");
 }
+
+.cincodatarde {
+  background-image:  url("../img/cincodatarde2.jpg");
+}
+
+.frequenciaPositiva {
+  background-image:  url("../img/frequenciapositivabg.JPG");
+}
+
+.filosofia {
+  background-image:  url("../img/bg.png");
+}
+
+
 
 .tituloDiv {
   margin-top: 80px;
