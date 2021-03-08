@@ -121,7 +121,7 @@
 
 @media only screen and (max-width: 600px) {
   .caleidoscopio {
-    height: 10rem;
+    width: 30rem;
   }
 
 }
